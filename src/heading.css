@@ -1,0 +1,10 @@
+/* heading.css */
+.app-heading {
+    color: #333;
+    font-size: 48px;
+    text-align: center;
+    margin: 20px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+  }
+  

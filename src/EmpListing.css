@@ -1,0 +1,17 @@
+
+.emp-card {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.emp-card:hover {
+  background-color: #9c9595;
+}
+
+/* Exclude hover styles for checkbox */
+.emp-card input[type="checkbox"]:hover {
+  background-color: transparent;
+  cursor: pointer;
+  pointer-events: none; /* Prevent hover events on the checkbox */
+}
+
